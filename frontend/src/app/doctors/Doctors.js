@@ -13,7 +13,7 @@ export default function Doctors() {
   useEffect(() => {
     if (search) {
       axios
-        .get(`http://localhost:5000/api/doctors?search=${encodeURIComponent(search)}`)
+        .get(`https://doctor-listing-page.onrender.com/api/doctors?search=${encodeURIComponent(search)}`)
         .then((res) => setDoctors(res.data))
         .catch((err) => console.error(err));
     }
@@ -43,3 +43,4 @@ export default function Doctors() {
     </main>
   );
 }
+
