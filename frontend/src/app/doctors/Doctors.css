@@ -1,0 +1,52 @@
+.doctors-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.doctors-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.doctors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doctor-card {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.doctor-name {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  color: #0070f3;
+}
+
+.doctor-info {
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  margin-top: 2rem;
+}
+
